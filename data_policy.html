@@ -1,171 +1,151 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Saurashtra Vivah — Data Policy</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Saurashtra Vivah - Data Policy</title>
   <style>
-    :root{
-      --bg:#f6f8fb;
-      --card:#ffffff;
-      --muted:#6b7280;
-      --accent:#6d28d9;
-      --accent-600:#5b21b6;
-      --text:#0f172a;
-      --callout:#eef2ff;
-      --radius:14px;
+    body {
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #f7fafc;
+      padding: 24px
     }
-    *{box-sizing:border-box}
-    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;color:var(--text);background:linear-gradient(180deg,var(--bg) 0%, #eef2ff11 100%);padding:28px;margin:0}
 
-    .wrap{max-width:980px;margin:18px auto;padding:20px}
-    header{display:flex;gap:16px;align-items:center;margin-bottom:16px}
-    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-600));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;box-shadow:0 8px 30px rgba(99,102,241,0.12)}
-    h1{font-size:20px;margin:0}
-    .meta{color:var(--muted);font-size:13px}
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06)
+    }
 
-    .container{background:var(--card);padding:28px;border-radius:var(--radius);box-shadow:0 10px 30px rgba(2,6,23,0.06);border:1px solid rgba(15,23,42,0.03)}
+    h1 {
+      font-size: 28px;
+      margin: 0 0 8px
+    }
 
-    .lead{color:var(--muted);margin-top:6px}
-    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+    p.lead {
+      color: #374151;
+      margin-top: 0
+    }
 
-    main{min-width:0}
-    h2{font-size:16px;margin:18px 0 8px}
-    p{color:#334155;margin:0 0 12px}
-    ul{margin:8px 0 12px 20px}
-    li{margin-bottom:8px}
-    code{background:#f3f4f6;padding:3px 8px;border-radius:6px;font-size:13px}
+    h2 {
+      font-size: 18px;
+      margin-top: 20px
+    }
 
-    .callout{background:var(--callout);border-left:4px solid var(--accent);padding:14px;border-radius:10px;margin:12px 0;color:#1f2937}
+    ul {
+      margin: 8px 0 12px 20px
+    }
 
-    /* right column */
-    aside{position:relative}
-    .card{background:linear-gradient(180deg,#fff,#fbfbff);padding:14px;border-radius:12px;border:1px solid rgba(15,23,42,0.03);box-shadow:0 6px 20px rgba(2,6,23,0.04)}
-    .small{font-size:13px;color:var(--muted)}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;border:0;background:var(--accent);color:#fff;font-weight:600;text-decoration:none}
-    .btn.secondary{background:#fff;border:1px solid rgba(15,23,42,0.06);color:var(--text)}
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px
+    }
 
-    footer{margin-top:18px;font-size:13px;color:var(--muted)}
+    .muted {
+      color: #6b7280
+    }
 
-    /* responsive */
-    @media (max-width:880px){
-      .grid{grid-template-columns:1fr;margin-top:12px}
-      .logo{width:52px;height:52px}
+    .callout {
+      background: #eef2ff;
+      border-left: 4px solid #6366f1;
+      padding: 12px;
+      border-radius: 6px;
+      margin: 12px 0
+    }
+
+    a {
+      color: #2563eb
+    }
+
+    footer {
+      font-size: 13px;
+      color: #6b7280;
+      margin-top: 18px
     }
   </style>
 </head>
+
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">SV</div>
-      <div>
-        <h1>Saurashtra Vivah — Data Policy</h1>
-        <div class="meta">Keeping your privacy clear and simple • Last updated: <strong>September 5, 2025</strong></div>
-      </div>
-    </header>
-
-    <div class="container">
-      <div class="grid">
-        <main>
-          <p class="lead">Welcome — this page explains what we collect, why, and what control you have over your information.</p>
-
-          <h2>1. Introduction</h2>
-          <p>Welcome to <strong>Saurashtra Vivah</strong>. This Data Policy explains what information we collect, how we use and share it, how long we keep it, and how you can control or delete your data.</p>
-
-          <h2>2. Data we collect</h2>
-          <p>We may collect the following types of data when you use the app:</p>
-          <ul>
-            <li><strong>Personal information:</strong> name, email, phone number, gender, date of birth, and other profile fields you provide.</li>
-            <li><strong>User content:</strong> profile photos, bio, interests, hobbies, and messages you send to other users.</li>
-            <li><strong>Location:</strong> city/state (we do <em>not</em> share precise GPS by default unless you enable a location-based feature).</li>
-          </ul>
-
-          <h2>3. How we use your data</h2>
-          <ul>
-            <li>To create and manage your account and profile.</li>
-            <li>To provide matchmaking, messaging, and profile-view features.</li>
-            <li>To improve our service through analytics and bug fixes (aggregated/anonymized).</li>
-            <li>To comply with legal obligations and respond to lawful requests.</li>
-          </ul>
-
-          <h2>4. Data sharing</h2>
-          <p>We do <strong>not</strong> sell your personal data. We may share data only when required (e.g., legal requests).</p>
-
-          <h2>5. Security</h2>
-          <p>All traffic between the app and our servers is encrypted with HTTPS/TLS. We use industry-standard safeguards such as access controls and encrypted backups where appropriate. No system is completely risk-free, so we continuously monitor and improve security.</p>
-
-          <h2>6. Data retention &amp; deletion</h2>
-          <ul>
-            <li>We retain personal data while your account is active.</li>
-            <li>If you request deletion, we remove profile, photos, messages and personal data within <strong>30 days</strong>, except where required to retain certain records for legal or financial compliance.</li>
-            <li>Aggregated or anonymized analytics data may be retained indefinitely.</li>
-          </ul>
-
-          <div class="callout">
-            <strong>How to delete your account</strong>
-            <ol style="margin:8px 0 0;padding-left:18px">
-              <li>Open the Saurashtra Vivah app → Settings → Delete Account, OR</li>
-              <li>Email <a href="mailto:leafsof@gmail.com">leafsof@gmail.com</a> with subject "Delete my account" and include your registered phone number.</li>
-            </ol>
-            <p class="small" style="margin-top:8px;color:var(--muted)">After your request we'll confirm by email and complete removal within the timeframe above (unless retention is required by law).</p>
-          </div>
-
-          <h2>7. User controls</h2>
-          <ul>
-            <li>Update or remove profile fields from within the app.</li>
-            <li>Block or report other users via profile or chat; reported content is reviewed by moderation.</li>
-            <li>Request copies of your data or specific deletions by emailing <a href="mailto:leafsof@gmail.com">leafsof@gmail.com</a>.</li>
-          </ul>
-
-          <h2>8. Children</h2>
-          <p>The service is for users 18+. We do not knowingly collect data from children under 18 — contact us if you believe otherwise and we'll delete it.</p>
-
-          <h2>9. Changes to this policy</h2>
-          <p>We may update this policy. When we do, we'll update the "Last updated" date. Continued use after changes means you accept the new policy.</p>
-
-          <h2>10. Contact</h2>
-          <p>If you have questions or requests, email <a href="mailto:leafsof@gmail.com">leafsof@gmail.com</a>.</p>
-        </main>
-
-        <aside>
-          <div class="card" style="margin-bottom:14px">
-            <div style="display:flex;justify-content:space-between;align-items:center">
-              <div>
-                <div style="font-weight:700">Quick actions</div>
-                <div class="small">Manage your account or request deletion</div>
-              </div>
-            </div>
-            <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-              <a class="btn" href="#contact">Contact Support</a>
-              <a class="btn secondary" href="#delete">Request Deletion</a>
-            </div>
-          </div>
-
-          <div class="card">
-            <div style="display:flex;align-items:center;gap:10px">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="#6d28d9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="12" cy="9" r="2.5" stroke="#6d28d9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <div>
-                <div style="font-weight:700">Privacy highlights</div>
-                <div class="small">We don't sell data • HTTPS by default • Delete within 30 days</div>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-
-      <footer style="display:flex;justify-content:space-between;align-items:center;margin-top:18px">
-        <div class="small">Saurashtra Vivah — <span id="year"></span>. All rights reserved.</div>
-        <div class="small muted">Made with ♥ for safe matchmaking</div>
-      </footer>
+  <div class="container">
+    <h1>Saurashtra Vivah — Data Policy</h1>
+    <p class="lead">Last updated: <strong>[2025-09-05]</strong></p>
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>Saurashtra Vivah</strong>. This Data Policy explains what information we collect, how we use
+      and share it, how long we keep it, and how you can control or delete your data.</p>
+    <h2>2. Data We Collect</h2>
+    <p>We may collect the following information when you use the app:</p>
+    <ul>
+      <li><strong>Personal information:</strong> name, email address, phone number, gender, date of birth, and other
+        profile fields you provide.</li>
+      <li><strong>User content:</strong> profile photos, bio, interests, hobbies, and messages you send to other users.
+      </li>
+      <li><strong>Location:</strong> city/state if you choose to share it. We do <em>not</em> share precise, real-time
+        GPS by default unless you explicitly enable a feature that requires it.</li>
+    </ul>
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+      <li>To create and manage your account and profile.</li>
+      <li>To provide matchmaking and communication features.</li>
+      <li>To enable messaging and profile viewing between users.</li>
+      <li>To improve our service, perform analytics, and fix bugs.</li>
+      <li>To comply with legal obligations or respond to lawful requests from authorities.</li>
+    </ul>
+    <h2>4. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell your personal data. We may share data with:</p>
+    <ul>
+      <li><strong>Legal or regulatory authorities</strong> when required by law.</li>
+    </ul>
+    <h2>5. Security</h2>
+    <p>All communication between the app and our servers uses HTTPS/TLS to encrypt data in transit. We take reasonable
+      technical and organizational measures to protect user data, including access controls and encrypted backups where
+      appropriate. However, no system is 100% secure.</p>
+    <h2>6. Data Retention &amp; Deletion</h2>
+    <ul>
+      <li>We retain personal data while your account is active.</li>
+      <li>If you request account deletion via the methods below, we will remove your profile, photos, messages, and
+        other personal data within <strong>[30 days]</strong>, unless otherwise required to retain specific records for
+        legal or financial compliance (e.g., payment records) for up to <strong>[X months/years]</strong>.</li>
+      <li>Aggregated or anonymized data used for analytics may be retained indefinitely.</li>
+    </ul>
+    <div class="callout"> <strong>How to delete your account</strong>
+      <ol>
+        <li>Open the Saurashtra Vivah app → Settings → Delete Account, OR</li>
+        <li>Send an email to <a href="mailto:leafsof@gmail.com">leafsof@gmail.com</a> with the subject "Delete my
+          account" and include your registered phone.</li>
+      </ol>
+      <p class="muted">After you request deletion we will confirm by email and complete the removal within the timeframe
+        above.</p>
     </div>
+    <h2>7. User Controls</h2>
+    <ul>
+      <li>You can update or remove profile fields from within the app.</li>
+      <li>Block or report other users using the profile or chat interface; reported content will be reviewed by our
+        moderation team.</li>
+      <li>To request copies of your data or specific deletions, contact <a
+          href="mailto:leafsof@gmail.com">leafsof@gmail.com</a>.</li>
+    </ul>
+    <h2>8. Children</h2>
+    <p>Our app is intended for users who are at least 18 years old. We do not knowingly collect data from children under
+      18. If you believe a child has provided us with personal data, contact us and we will delete that data.</p>
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Data Policy from time to time. When we make changes we will update the "Last updated" date at
+      the top of this page. Continued use of the app after changes are posted constitutes acceptance of the revised
+      policy.</p>
+    <h2>10. Contact</h2>
+    <p>If you have questions or requests regarding this policy, contact us at:<br> <strong>Email:</strong> <a
+        href="mailto:leafsof@gmail.com">leafsof@gmail.com</a><br>
+    <footer>
+      <p class="muted">Saurashtra Vivah — <span id="year"></span>. All rights reserved.</p>
+    </footer>
   </div>
-
   <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
 </body>
+
 </html>
