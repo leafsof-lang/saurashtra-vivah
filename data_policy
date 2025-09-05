@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Saurashtra Vivah - Data Policy</title>
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;color:#111;background:#f7fafc;padding:24px}
+    .container{max-width:900px;margin:20px auto;background:#fff;padding:28px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    h1{font-size:28px;margin:0 0 8px}
+    p.lead{color:#374151;margin-top:0}
+    h2{font-size:18px;margin-top:20px}
+    ul{margin:8px 0 12px 20px}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px}
+    .muted{color:#6b7280}
+    .callout{background:#eef2ff;border-left:4px solid #6366f1;padding:12px;border-radius:6px;margin:12px 0}
+    a{color:#2563eb}
+    footer{font-size:13px;color:#6b7280;margin-top:18px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Saurashtra Vivah — Data Policy</h1>
+    <p class="lead">Last updated: <strong>[YYYY-MM-DD]</strong></p>
+
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>Saurashtra Vivah</strong>. This Data Policy explains what information we collect, how we use and share it, how long we keep it, and how you can control or delete your data.</p>
+
+    <h2>2. Data We Collect</h2>
+    <p>We may collect the following information when you use the app:</p>
+    <ul>
+      <li><strong>Personal information:</strong> name, email address, phone number, gender, date of birth, and other profile fields you provide.</li>
+      <li><strong>User content:</strong> profile photos, bio, interests, hobbies, and messages you send to other users.</li>
+      <li><strong>Device &amp; usage data:</strong> device type, operating system, IP address, app usage statistics and crash reports.</li>
+      <li><strong>Location:</strong> city/state if you choose to share it. We do <em>not</em> share precise, real-time GPS by default unless you explicitly enable a feature that requires it.</li>
+      <li><strong>Payment data:</strong> if you subscribe or purchase premium features we collect necessary billing information via our payment provider. We do not store raw card numbers on our servers.</li>
+    </ul>
+
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+      <li>To create and manage your account and profile.</li>
+      <li>To provide matchmaking and communication features.</li>
+      <li>To enable messaging and profile viewing between users.</li>
+      <li>To process payments and subscriptions (via third-party payment providers).</li>
+      <li>To improve our service, perform analytics, and fix bugs.</li>
+      <li>To comply with legal obligations or respond to lawful requests from authorities.</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do <strong>not</strong> sell your personal data. We may share data with:</p>
+    <ul>
+      <li><strong>Service providers</strong> who help us operate the app (hosting, analytics, messaging, payments).</li>
+      <li><strong>Legal or regulatory authorities</strong> when required by law.</li>
+    </ul>
+
+    <h2>5. Security</h2>
+    <p>All communication between the app and our servers uses HTTPS/TLS to encrypt data in transit. We take reasonable technical and organizational measures to protect user data, including access controls and encrypted backups where appropriate. However, no system is 100% secure.</p>
+
+    <h2>6. Data Retention &amp; Deletion</h2>
+    <ul>
+      <li>We retain personal data while your account is active.</li>
+      <li>If you request account deletion via the methods below, we will remove your profile, photos, messages, and other personal data within <strong>[30 days]</strong>, unless otherwise required to retain specific records for legal or financial compliance (e.g., payment records) for up to <strong>[X months/years]</strong>.</li>
+      <li>Aggregated or anonymized data used for analytics may be retained indefinitely.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>How to delete your account</strong>
+      <ol>
+        <li>Open the Saurashtra Vivah app → Settings → Delete Account, OR</li>
+        <li>Send an email to <a href="mailto:support@saurashtravivah.com">support@saurashtravivah.com</a> with the subject "Delete my account" and include your registered email/phone.</li>
+      </ol>
+      <p class="muted">After you request deletion we will confirm by email and complete the removal within the timeframe above.</p>
+    </div>
+
+    <h2>7. User Controls</h2>
+    <ul>
+      <li>You can update or remove profile fields from within the app.</li>
+      <li>Block or report other users using the profile or chat interface; reported content will be reviewed by our moderation team.</li>
+      <li>To request copies of your data or specific deletions, contact <a href="mailto:support@saurashtravivah.com">support@saurashtravivah.com</a>.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>Our app is intended for users who are at least 18 years old. We do not knowingly collect data from children under 18. If you believe a child has provided us with personal data, contact us and we will delete that data.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Data Policy from time to time. When we make changes we will update the "Last updated" date at the top of this page. Continued use of the app after changes are posted constitutes acceptance of the revised policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions or requests regarding this policy, contact us at:<br>
+      <strong>Email:</strong> <a href="mailto:support@saurashtravivah.com">support@saurashtravivah.com</a><br>
+      <strong>Website:</strong> <a href="https://example.com">https://example.com</a> (replace with your site URL)</p>
+
+    <footer>
+      <p class="muted">Saurashtra Vivah — <span id="year"></span>. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
