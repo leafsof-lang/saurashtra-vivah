@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Child Safety & Protection — Saurashtra Vivah Matrimony</title>
+  <meta name="description" content="Saurashtra Vivah Matrimony: our published standards to prevent child sexual abuse and exploitation (CSAE/CSAM). Reports and contact details." />
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#222;padding:28px;max-width:900px;margin:0 auto;background:#fff}
+    header{border-bottom:1px solid #eee;margin-bottom:22px}
+    h1{font-size:28px;margin:6px 0}
+    h2{font-size:20px;margin-top:18px}
+    p,li{font-size:15px}
+    .note{background:#f9f9f9;border-left:4px solid #e0e0e0;padding:12px;margin:12px 0}
+    footer{border-top:1px solid #eee;margin-top:28px;padding-top:12px;color:#555;font-size:13px}
+    a{color:#0b63ce}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Child Safety & Protection Standards</h1>
+    <p><strong>Saurashtra Vivah Matrimony</strong> — Published standards to prevent and respond to child sexual abuse and exploitation (CSAE/CSAM).</p>
+  </header>
+
+  <section>
+    <h2>1. Our commitment</h2>
+    <p>Saurashtra Vivah strictly prohibits any content, activity, or behaviour that promotes, depicts, or facilitates child sexual abuse and exploitation. We are committed to protecting minors and complying with all applicable laws and platform policies.</p>
+  </section>
+
+  <section>
+    <h2>2. Age requirements</h2>
+    <ul>
+      <li>All users must be at least <strong>18 years old</strong> to register for Saurashtra Vivah.</li>
+      <li>We require users to provide date-of-birth at registration. Accounts that present suspicious or inconsistent age information are subject to manual review and suspension.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Prevention & detection</h2>
+    <ul>
+      <li>Automated filters and heuristics: we use automated tools to flag potentially exploitative content and suspicious accounts for human review.</li>
+      <li>Manual moderation: our moderation team reviews flagged items and maintains escalation procedures for high-risk reports.</li>
+      <li>Proactive monitoring: we periodically audit public and reported content to identify problematic behaviour.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Reporting mechanisms (in-app)</h2>
+    <p>Users can report suspected child safety concerns directly within the app by using the <em>Report</em> option on profiles, messages, or content. Each report will be reviewed by our moderation team as a priority.</p>
+    <div class="note">
+      <strong>If you encounter an immediate danger to a child:</strong> contact your local emergency services first, then report the incident to us.
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Cooperation with authorities</h2>
+    <p>We comply with applicable laws and will promptly report verified CSAM/CSAE incidents to the relevant regional or national authorities. We will also preserve and provide records and metadata to law enforcement when legally required.</p>
+  </section>
+
+  <section>
+    <h2>6. Enforcement</h2>
+    <ul>
+      <li>Accounts found to be in violation of these standards will be suspended or permanently banned.</li>
+      <li>We remove content that violates our policies and maintain logs for investigations and law enforcement requests.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Training & internal policies</h2>
+    <p>Our staff and moderators receive regular training on recognising and handling CSAE/CSAM concerns, privacy best practices, and legal obligations related to child protection.</p>
+  </section>
+
+  <section>
+    <h2>8. Contact for child safety concerns</h2>
+    <p>If you have child safety concerns related to Saurashtra Vivah, please contact our designated point of contact:</p>
+    <ul>
+      <li><strong>Email:</strong> leafsof@gmail.com</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this page from time to time. The date and version will be displayed at the top of the page when a change is made.</p>
+  </section>
+
+  <footer>
+    <p>Published by Saurashtra Vivah Matrimony. For more information, visit our main website or contact us at the address above.</p>
+  </footer>
+</body>
+</html>
