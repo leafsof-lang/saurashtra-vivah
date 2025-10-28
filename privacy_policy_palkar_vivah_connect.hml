@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Palkar Vivah & Connect — Privacy Policy</title>
+  <style>
+    body {
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+      background: #f9fafb;
+      padding: 24px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+    }
+    h1 { font-size: 28px; margin: 0 0 12px; }
+    h2 { font-size: 18px; margin-top: 20px; }
+    ul { margin: 8px 0 12px 20px; }
+    p.lead { color: #374151; margin-top: 0; }
+    footer { font-size: 13px; color: #6b7280; margin-top: 18px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Palkar Vivah & Connect — Privacy Policy</h1>
+    <p class="lead">Effective date: <strong>October 28, 2025</strong></p>
+
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy describes how <strong>Palkar Vivah & Connect</strong> (“we”, “our”, “us”), developed and operated by <strong>Leafsof Technologies</strong>, collects, uses, stores, and protects your personal information when you use our application or related services. By using the app, you agree to the terms outlined below.</p>
+
+    <h2>2. Information We Collect</h2>
+    <ul>
+      <li><strong>Personal Information:</strong> name, email, phone number, gender, date of birth, and profile details you provide.</li>
+      <li><strong>User Content:</strong> profile photos, bio, hobbies, and messages you send to other users.</li>
+      <li><strong>Location Data:</strong> city/state (we do not collect or share precise GPS unless explicitly enabled by you).</li>
+      <li><strong>Technical Data:</strong> device type, app version, and limited log data for analytics and troubleshooting.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>To create and manage your account.</li>
+      <li>To enable matchmaking, messaging, and profile viewing features.</li>
+      <li>To maintain security and prevent fraud.</li>
+      <li>To improve our services through analytics and bug fixing.</li>
+      <li>To comply with legal or regulatory requirements.</li>
+    </ul>
+
+    <h2>4. Data Processing</h2>
+    <p>Some data (e.g., OTP verification) may be processed <em>ephemerally</em> — meaning it is handled in memory and not stored permanently. Other data, such as your profile and photos, are stored securely in our systems until deleted.</p>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell your personal data. We may share information only when required by law, or when necessary to protect our rights or users’ safety.</p>
+
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li>Your data is retained while your account remains active.</li>
+      <li>If you request deletion, we will remove your personal data within <strong>30 days</strong>, unless retention is required by law (e.g., for payment or compliance records).</li>
+      <li>Anonymized or aggregated data may be retained indefinitely for analytics.</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <ul>
+      <li>You can update or delete profile fields directly in the app.</li>
+      <li>You can request account deletion through the app or by contacting us via email.</li>
+      <li>You may request a copy of your personal data by contacting us.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>Our services are intended for users aged 18 and above. We do not knowingly collect information from children under 18. If you believe a child has provided us with personal data, please contact us and we will delete it.</p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated “Effective date.” Continued use of our app after updates means you accept the revised policy.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have questions or concerns about this Privacy Policy, you can contact us at:</p>
+    <p><strong>Developer / Entity:</strong> Leafsof Technologies<br>
+       <strong>Email:</strong> <a href="mailto:leafsof@gmail.com">leafsof@gmail.com</a></p>
+
+    <footer>
+      <p>Palkar Vivah & Connect — <span id="year"></span>. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
