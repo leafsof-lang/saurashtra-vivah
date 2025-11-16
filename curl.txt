@@ -1,0 +1,2 @@
+ curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=✨New Matches Alert!✨&body=Two new grooms just joined — from Hosur and Chennai. Don’t miss the chance to view their profiles today!.
+&imageUrl=https://raw.githubusercontent.com/leafsof-lang/saurashtra-vivah/main/NotificationImage.png"
