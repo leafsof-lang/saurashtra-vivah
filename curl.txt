@@ -1,2 +1,16 @@
- curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=✨New Matches Alert!✨&body=Two new grooms just joined — from Hosur and Chennai. Don’t miss the chance to view their profiles today!.
-&imageUrl=https://raw.githubusercontent.com/leafsof-lang/saurashtra-vivah/main/NotificationImage.png"
+
+curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=Beyond Kanchipuram…&body=Thirubuvanam silk is gaining love for its lightweight drape and timeless temple borders. A classic choice for brides and ceremonies!&imageUrl=https://leafsof-lang.github.io/saurashtra-vivah/NotificationImage.jpeg"
+
+
+matri_notifications--only for matrimony peope
+
+
+🌸 Namaskaram, Patnoolkars!
+Today’s fact: Our Sourashtrian ancestors migrated centuries ago from the ancient Saurashtra region of Gujarat — the land associated with Lord Krishna’s historic city of Dwarka.
+Their journey preserved our language, culture, and weaving heritage across generations.
+Proud to be Sourashtrian! 💛
+
+
+
+
+Thirubuvanam silk is gaining love for its lightweight drape and timeless temple borders. A classic choice for brides and ceremonies!
