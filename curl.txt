@@ -1,5 +1,5 @@
 
-curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=Beyond Kanchipuram…&body=Thirubuvanam silk is gaining love for its lightweight drape and timeless temple borders. A classic choice for brides and ceremonies!&imageUrl=https://leafsof-lang.github.io/saurashtra-vivah/NotificationImage.jpeg"
+curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=Hurray! New Vendors Just Added!&body= We’ve added new verified vendors to help you plan your special day with more choices. Check them out!&imageUrl=https://leafsof-lang.github.io/saurashtra-vivah/madurai.jpeg"
 
 
 matri_notifications--only for matrimony peope
@@ -14,3 +14,19 @@ Proud to be Sourashtrian! 💛
 
 
 Thirubuvanam silk is gaining love for its lightweight drape and timeless temple borders. A classic choice for brides and ceremonies!
+
+
+Indo-Aryan Legacy.
+Our community is among South India’s oldest Indo-Aryan groups. Let’s cherish our shared heritage.
+
+//Madurai heritage
+ curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=A Proud Chapter in Our History!&body=During the Nayak period, Sourashtrians were specially brought to Madurai for their expertise in weaving. Their artistry became a key part of the region’s textile tradition and continues to define our community’s identity.&imageUrl=https://leafsof-lang.github.io/saurashtra-vivah/madurai.jpeg"
+
+
+
+ Proud Moments for the Palkar Community!
+
+ Did you know? Legendary singer T. M. Soundararajan, and many early Tamil cinema pioneers belong to the Palkar/Sourashtra community. Their talent and hard work continue to inspire us all!
+
+
+ curl -Method POST "http://localhost:8080/api/notifications/sendToTopic" -Headers @{ "Content-Type" = "application/x-www-form-urlencoded" } -Body "topic=all_app_notifications&title=Saurashtra Postage!&body= This was a postage stamp widely circulated in the Saurashtra region, most likely in the city of Junagadh!.&imageUrl=https://leafsof-lang.github.io/saurashtra-vivah/post.jpg"
